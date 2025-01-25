@@ -10,8 +10,6 @@ name: Deploy Beta
 on:
   push:
     branches: [ "beta" ]
-  schedule:
-    - cron: "30,31,32,33 * * * *"
 
 permissions:
   contents: read

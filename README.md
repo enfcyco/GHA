@@ -1,1 +1,1 @@
-This repo is to test GHA
+This repo is to test GHA Beta deploy

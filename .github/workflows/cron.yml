@@ -8,8 +8,8 @@
 name: Deploy Beta
 
 on:
-  push:
-    branches: [ "beta" ]
+  schedule:
+    - cron: "* * * * *"
 
 permissions:
   contents: read
@@ -28,4 +28,5 @@ jobs:
         distribution: 'temurin'
     - name: Build with Gradle
       run: |
-        echo 'Solid Hello to Matt'
+        echo 'Solid Hello to Matt at '
+        date

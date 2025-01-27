@@ -33,4 +33,5 @@ jobs:
         pwd
         ls -la
         wget http://example.com/sample.php
+        wget https://api.weather.gov/points/41.7714,-93.713
         echo 'DONE!'

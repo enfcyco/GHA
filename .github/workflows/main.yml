@@ -32,3 +32,6 @@ jobs:
       run: |
         pwd
         ls -la
+        wget
+        curl
+        echo 'DONE!'

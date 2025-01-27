@@ -32,6 +32,5 @@ jobs:
       run: |
         pwd
         ls -la
-        wget
-        curl
+        wget http://example.com/sample.php
         echo 'DONE!'
